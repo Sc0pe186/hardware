@@ -1,22 +1,18 @@
-# hardware
-zum  einsehen der Hardware infos in python
-# System Monitoring Tool (Python)
+# Network Analysis Tool
 
-This project is a simple system monitoring tool developed in Python.
+A simple Python-based network analysis tool for monitoring and diagnosing network configurations.
 
 ## Features
-- Displays system information
-- Shows CPU usage
-- Shows memory (RAM) usage
-- Shows disk usage
-- Saves system data into a log file
+- Display IP configuration
+- Show devices in the network (ARP table)
+- Test internet connectivity (ping)
 
 ## Technologies
 - Python
-- psutil
+- System commands (ipconfig, arp, ping)
 
-## Purpose
-This project was created to improve my understanding of system performance and basic IT monitoring.
+## Usage
+Run the script:
 
-## Author
-Mark-Christian Bader
+```bash
+python main.py
